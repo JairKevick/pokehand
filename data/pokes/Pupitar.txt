@@ -1,0 +1,21 @@
+Name: Pupitar
+Type: stone
+Required level: 40
+
+Evolutions:
+Larvitar, requires level 15
+Pupitar, requires level 40
+Tyranitar, requires level 70
+
+Moves: 
+Rock Throw - m1 - level 40 - stone
+Rock Slide - m2 - level 40 - stone
+Mega Punch - m3 - level 40 - fighting
+Earthshock - m4 - level 40 - earth
+Falling Rocks - m5 - level 50 - stone
+Harden - m6 - level 45 - normal
+Selfdestruction - m7 - level 52 - normal
+
+Ability:
+Dig
+Rock smash

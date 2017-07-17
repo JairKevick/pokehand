@@ -1,0 +1,19 @@
+Name: Natu
+Type: psychic
+Required level: 15
+
+Evolutions:
+Natu, requires level 15
+Xatu, requires level 45
+
+
+Moves used:
+Confusion (psychic) - m1 - level 15
+Restore (healing) - m2 - level 18
+Psy Pulse (psychic) - m3 - level 20
+Calm Mind (psychic) - m4 - level 27
+
+Habilities:
+Teleport (type either /h or h")
+Flash (use order on your pokemon)
+Blink (use order somewhere to teleport)

@@ -1,0 +1,706 @@
+== application crashed
+app name: OTClient
+app version: 0.6.3
+build compiler: msvc12
+build date: Aug  5 2015
+build type: RelWithDebInfo
+build revision: 0 (devel)
+crash date: Aug 05 2015 20:45:27
+exception: Access violation (0xc0000005)
+exception address: 0x62e84353
+  backtrace:
+    0: C:\MinGW\bin\zlib1.dll(deflateTune+0x13) [0x0000000062E84353]
+    1: C:\Poke\PokeGBA\OTClient2\RealPoke DirectX9.exe(load_apng+0xd63) [0x0000000000E90AA3]
+    2: C:\Poke\PokeGBA\OTClient2\RealPoke DirectX9.exe(TextureManager::loadTexture+0x62) [0x0000000000EA0E72]
+    3: C:\Poke\PokeGBA\OTClient2\RealPoke DirectX9.exe(TextureManager::getTexture+0x197) [0x0000000000EA0C27]
+    4: C:\Poke\PokeGBA\OTClient2\RealPoke DirectX9.exe(BitmapFont::load+0x476) [0x0000000000E91D36]
+    5: C:\Poke\PokeGBA\OTClient2\RealPoke DirectX9.exe(FontManager::importFont+0x360) [0x0000000000E94C00]
+    6: C:\Poke\PokeGBA\OTClient2\RealPoke DirectX9.exe(std::_Callable_obj<<lambda_f7db3b97b18e37c0a431d539ac33bbef>,0>::_ApplyX<bool,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>+0x7c) [0x0000000000E3F30C]
+    7: C:\Poke\PokeGBA\OTClient2\RealPoke DirectX9.exe(luabinder::call_fun_and_push_result<bool,std::function<bool __cdecl(stdext::shared_object_ptr<Creature> const &)>,stdext::shared_object_ptr<Creature> >+0x1a) [0x0000000000E0BA6A]
+    8: C:\Poke\PokeGBA\OTClient2\RealPoke DirectX9.exe(<lambda_818a45b46eed649c88320bc671295e44>::operator()+0x176) [0x0000000000DDB356]
+    9: C:\Poke\PokeGBA\OTClient2\RealPoke DirectX9.exe(std::_Func_impl<std::_Callable_obj<<lambda_818a45b46eed649c88320bc671295e44>,0>,std::allocator<std::_Func_class<int,LuaInterface *> >,int,LuaInterface *>::_Do_call+0x10) [0x0000000000E14020]
+    10: C:\Poke\PokeGBA\OTClient2\RealPoke DirectX9.exe(LuaInterface::luaCppFunctionCallback+0x8b) [0x0000000000EA8FCB]
+    11: C:\Poke\PokeGBA\OTClient2\luajit.dll [0x000000006526266F]
+    12: Unknown [0x0000000000010661]
+    13: Unknown [0x00000000005101F0]
+
+== application crashed
+app name: OTClient
+app version: 0.6.5
+build compiler: gcc 4.8.1
+build date: Aug  9 2014
+build type: Release
+build revision: 0 (devel)
+crash date: Mar 13 2016 14:29:03
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x0042434f
+  backtrace:
+    0: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000042434F]
+    1: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x00000000004244EB]
+    2: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000437CB2]
+    3: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000042E582]
+    4: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000044ACF1]
+    5: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453CB4]
+    6: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453B47]
+    7: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453D19]
+    8: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453B47]
+    9: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453D19]
+    10: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000474C48]
+    11: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000045EE96]
+    12: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe(wglewIsSupported+0x124245) [0x000000000074C4F5]
+    13: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000401413]
+    14: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x00000000004015A5]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x8f) [0x00000000779AAB8F]
+    16: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x5a) [0x00000000779AAB5A]
+
+== application crashed
+app name: OTClient
+app version: 0.6.5
+build compiler: gcc 4.8.1
+build date: Aug  9 2014
+build type: Release
+build revision: 0 (devel)
+crash date: Mar 13 2016 14:30:20
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x0042434f
+  backtrace:
+    0: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000042434F]
+    1: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x00000000004244EB]
+    2: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000437CB2]
+    3: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000042E582]
+    4: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000044ACF1]
+    5: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453CB4]
+    6: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453B47]
+    7: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453D19]
+    8: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453B47]
+    9: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453D19]
+    10: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000474C48]
+    11: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000045EE96]
+    12: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe(wglewIsSupported+0x124245) [0x000000000074C4F5]
+    13: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000401413]
+    14: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x00000000004015A5]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x8f) [0x00000000779AAB8F]
+    16: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x5a) [0x00000000779AAB5A]
+
+== application crashed
+app name: OTClient
+app version: 0.6.5
+build compiler: gcc 4.8.1
+build date: Aug  9 2014
+build type: Release
+build revision: 0 (devel)
+crash date: Mar 13 2016 14:32:37
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x0042434f
+  backtrace:
+    0: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000042434F]
+    1: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x00000000004244EB]
+    2: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000437CB2]
+    3: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000042E582]
+    4: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000044ACF1]
+    5: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453CB4]
+    6: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453B47]
+    7: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453D19]
+    8: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453B47]
+    9: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453D19]
+    10: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000474C48]
+    11: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000045EE96]
+    12: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe(wglewIsSupported+0x124245) [0x000000000074C4F5]
+    13: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000401413]
+    14: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x00000000004015A5]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x8f) [0x00000000779AAB8F]
+    16: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x5a) [0x00000000779AAB5A]
+
+== application crashed
+app name: OTClient
+app version: 0.6.5
+build compiler: gcc 4.8.1
+build date: Aug  9 2014
+build type: Release
+build revision: 0 (devel)
+crash date: Mar 13 2016 14:33:05
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x0042434f
+  backtrace:
+    0: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000042434F]
+    1: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x00000000004244EB]
+    2: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000437CB2]
+    3: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000042E582]
+    4: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000044ACF1]
+    5: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453CB4]
+    6: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453B47]
+    7: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453D19]
+    8: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453B47]
+    9: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453D19]
+    10: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000474C48]
+    11: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000045EE96]
+    12: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe(wglewIsSupported+0x124245) [0x000000000074C4F5]
+    13: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000401413]
+    14: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x00000000004015A5]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x8f) [0x00000000779AAB8F]
+    16: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x5a) [0x00000000779AAB5A]
+
+== application crashed
+app name: OTClient
+app version: 0.6.5
+build compiler: gcc 4.8.1
+build date: Aug  9 2014
+build type: Release
+build revision: 0 (devel)
+crash date: Mar 13 2016 14:36:21
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x0042434f
+  backtrace:
+    0: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000042434F]
+    1: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x00000000004244EB]
+    2: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000437CB2]
+    3: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000042E582]
+    4: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000044ACF1]
+    5: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453CB4]
+    6: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453B47]
+    7: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453D19]
+    8: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453B47]
+    9: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000453D19]
+    10: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000474C48]
+    11: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x000000000045EE96]
+    12: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe(wglewIsSupported+0x124245) [0x000000000074C4F5]
+    13: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x0000000000401413]
+    14: C:\Users\ester alves\Desktop\Cliente OTC Lumination\Lumination OpenGL.exe [0x00000000004015A5]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x8f) [0x00000000779AAB8F]
+    16: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x5a) [0x00000000779AAB5A]
+
+== application crashed
+app name: OTClient
+app version: 0.6.5
+build compiler: gcc 4.8.1
+build date: Aug  9 2014
+build type: Release
+build revision: 0 (devel)
+crash date: Jan 23 2017 00:48:32
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x0042434f
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x000000000042434F]
+    1: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x00000000004244EB]
+    2: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000437CB2]
+    3: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x000000000042E582]
+    4: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x000000000044ACF1]
+    5: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000453CB4]
+    6: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000453B47]
+    7: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000453D19]
+    8: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000453B47]
+    9: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000453D19]
+    10: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000474C48]
+    11: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x000000000045EE96]
+    12: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe(wglewIsSupported+0x124245) [0x000000000074C4F5]
+    13: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000401413]
+    14: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x00000000004015A5]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x0000000077BB0FD9]
+    16: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x0000000077BB0FA4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.5
+build compiler: gcc 4.8.1
+build date: Aug  9 2014
+build type: Release
+build revision: 0 (devel)
+crash date: Jan 23 2017 00:48:50
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x0042434f
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x000000000042434F]
+    1: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x00000000004244EB]
+    2: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000437CB2]
+    3: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x000000000042E582]
+    4: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x000000000044ACF1]
+    5: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000453CB4]
+    6: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000453B47]
+    7: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000453D19]
+    8: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000453B47]
+    9: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000453D19]
+    10: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000474C48]
+    11: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x000000000045EE96]
+    12: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe(wglewIsSupported+0x124245) [0x000000000074C4F5]
+    13: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000401413]
+    14: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x00000000004015A5]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x0000000077BB0FD9]
+    16: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x0000000077BB0FA4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.5
+build compiler: gcc 4.8.1
+build date: Aug  9 2014
+build type: Release
+build revision: 0 (devel)
+crash date: Jan 23 2017 00:50:05
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x0042434f
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x000000000042434F]
+    1: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x00000000004244EB]
+    2: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000437CB2]
+    3: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x000000000042E582]
+    4: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x000000000044ACF1]
+    5: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000453CB4]
+    6: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000453B47]
+    7: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000453D19]
+    8: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000453B47]
+    9: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000453D19]
+    10: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000474C48]
+    11: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x000000000045EE96]
+    12: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe(wglewIsSupported+0x124245) [0x000000000074C4F5]
+    13: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x0000000000401413]
+    14: C:\Users\Meu computador\Desktop\Pokehand v10.1\PokeHand OpenGL.exe [0x00000000004015A5]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x0000000077BB0FD9]
+    16: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x0000000077BB0FA4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Aug  5 2015
+build type: Release
+build revision: 0 (devel)
+crash date: Apr 09 2017 10:26:20
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004a8bd4
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004A8BD4]
+    1: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004C3D97]
+    2: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004B6437]
+    3: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004DE239]
+    4: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA48]
+    5: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    6: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    7: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    8: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    9: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000044EB64]
+    10: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000046C4D0]
+    11: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe(alGetListeneriv+0x27398f) [0x0000000000778F0F]
+    12: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x0000000000401250]
+    13: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x0000000077870FD9]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x0000000077870FA4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Aug  5 2015
+build type: Release
+build revision: 0 (devel)
+crash date: Apr 11 2017 17:26:22
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004a8bd4
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004A8BD4]
+    1: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004C3D97]
+    2: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004B6437]
+    3: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004DE239]
+    4: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA48]
+    5: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    6: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    7: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    8: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    9: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000044EB64]
+    10: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000046C4D0]
+    11: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe(alGetListeneriv+0x27398f) [0x0000000000778F0F]
+    12: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x0000000000401250]
+    13: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x00000000779D0FD9]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x00000000779D0FA4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Aug  5 2015
+build type: Release
+build revision: 0 (devel)
+crash date: Apr 11 2017 17:27:54
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004a8bd4
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004A8BD4]
+    1: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004C3D97]
+    2: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004B6437]
+    3: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004DE239]
+    4: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA48]
+    5: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    6: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    7: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    8: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    9: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000044EB64]
+    10: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000046C4D0]
+    11: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe(alGetListeneriv+0x27398f) [0x0000000000778F0F]
+    12: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x0000000000401250]
+    13: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x00000000779D0FD9]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x00000000779D0FA4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Aug  5 2015
+build type: Release
+build revision: 0 (devel)
+crash date: Apr 11 2017 17:28:18
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004a8bd4
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004A8BD4]
+    1: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004C3D97]
+    2: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004B6437]
+    3: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004DE239]
+    4: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA48]
+    5: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    6: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    7: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    8: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    9: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000044EB64]
+    10: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000046C4D0]
+    11: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe(alGetListeneriv+0x27398f) [0x0000000000778F0F]
+    12: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x0000000000401250]
+    13: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x00000000779D0FD9]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x00000000779D0FA4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Aug  5 2015
+build type: Release
+build revision: 0 (devel)
+crash date: Apr 11 2017 17:56:30
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004a8bd4
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004A8BD4]
+    1: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004C3D97]
+    2: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004B6437]
+    3: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004DE239]
+    4: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA48]
+    5: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    6: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    7: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    8: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    9: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000044EB64]
+    10: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000046C4D0]
+    11: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe(alGetListeneriv+0x27398f) [0x0000000000778F0F]
+    12: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x0000000000401250]
+    13: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x00000000779D0FD9]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x00000000779D0FA4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Aug  5 2015
+build type: Release
+build revision: 0 (devel)
+crash date: Apr 11 2017 17:59:07
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004a8bd4
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004A8BD4]
+    1: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004C3D97]
+    2: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004B6437]
+    3: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004DE239]
+    4: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA48]
+    5: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    6: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    7: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    8: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    9: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000044EB64]
+    10: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000046C4D0]
+    11: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe(alGetListeneriv+0x27398f) [0x0000000000778F0F]
+    12: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x0000000000401250]
+    13: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x00000000779D0FD9]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x00000000779D0FA4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Aug  5 2015
+build type: Release
+build revision: 0 (devel)
+crash date: Apr 11 2017 21:25:53
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004a8bd4
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004A8BD4]
+    1: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004C3D97]
+    2: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004B6437]
+    3: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004DE239]
+    4: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA48]
+    5: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    6: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    7: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    8: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    9: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000044EB64]
+    10: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000046C4D0]
+    11: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe(alGetListeneriv+0x27398f) [0x0000000000778F0F]
+    12: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x0000000000401250]
+    13: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x00000000779D0FD9]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x00000000779D0FA4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Aug  5 2015
+build type: Release
+build revision: 0 (devel)
+crash date: Apr 11 2017 21:25:59
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004a8bd4
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004A8BD4]
+    1: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004C3D97]
+    2: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004B6437]
+    3: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004DE239]
+    4: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA48]
+    5: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    6: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    7: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    8: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    9: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000044EB64]
+    10: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000046C4D0]
+    11: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe(alGetListeneriv+0x27398f) [0x0000000000778F0F]
+    12: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x0000000000401250]
+    13: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x00000000779D0FD9]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x00000000779D0FA4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Aug  5 2015
+build type: Release
+build revision: 0 (devel)
+crash date: Apr 11 2017 22:37:19
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004a8bd4
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004A8BD4]
+    1: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004C3D97]
+    2: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004B6437]
+    3: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004DE239]
+    4: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA48]
+    5: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    6: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    7: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    8: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    9: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000044EB64]
+    10: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000046C4D0]
+    11: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe(alGetListeneriv+0x27398f) [0x0000000000778F0F]
+    12: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x0000000000401250]
+    13: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x00000000779D0FD9]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x00000000779D0FA4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Aug  5 2015
+build type: Release
+build revision: 0 (devel)
+crash date: Apr 11 2017 22:44:00
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004a8bd4
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004A8BD4]
+    1: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004C3D97]
+    2: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004B6437]
+    3: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004DE239]
+    4: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA48]
+    5: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    6: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    7: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    8: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    9: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000044EB64]
+    10: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000046C4D0]
+    11: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe(alGetListeneriv+0x27398f) [0x0000000000778F0F]
+    12: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x0000000000401250]
+    13: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x00000000779D0FD9]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x00000000779D0FA4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Aug  5 2015
+build type: Release
+build revision: 0 (devel)
+crash date: Apr 11 2017 22:44:08
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004a8bd4
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004A8BD4]
+    1: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004C3D97]
+    2: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004B6437]
+    3: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004DE239]
+    4: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA48]
+    5: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    6: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    7: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    8: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    9: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000044EB64]
+    10: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000046C4D0]
+    11: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe(alGetListeneriv+0x27398f) [0x0000000000778F0F]
+    12: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x0000000000401250]
+    13: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x00000000779D0FD9]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x00000000779D0FA4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Aug  5 2015
+build type: Release
+build revision: 0 (devel)
+crash date: Apr 11 2017 23:36:42
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004a8bd4
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004A8BD4]
+    1: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004C3D97]
+    2: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004B6437]
+    3: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004DE239]
+    4: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA48]
+    5: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    6: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    7: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    8: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    9: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000044EB64]
+    10: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000046C4D0]
+    11: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe(alGetListeneriv+0x27398f) [0x0000000000778F0F]
+    12: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x0000000000401250]
+    13: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x00000000779D0FD9]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x00000000779D0FA4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Aug  5 2015
+build type: Release
+build revision: 0 (devel)
+crash date: Apr 12 2017 00:46:39
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004a8bd4
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004A8BD4]
+    1: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004C3D97]
+    2: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004B6437]
+    3: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004DE239]
+    4: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA48]
+    5: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    6: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    7: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    8: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    9: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000044EB64]
+    10: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000046C4D0]
+    11: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe(alGetListeneriv+0x27398f) [0x0000000000778F0F]
+    12: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x0000000000401250]
+    13: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x00000000779D0FD9]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x00000000779D0FA4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Aug  5 2015
+build type: Release
+build revision: 0 (devel)
+crash date: Apr 12 2017 13:28:18
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004a8bd4
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004A8BD4]
+    1: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004C3D97]
+    2: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004B6437]
+    3: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004DE239]
+    4: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA48]
+    5: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    6: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    7: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    8: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    9: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000044EB64]
+    10: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000046C4D0]
+    11: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe(alGetListeneriv+0x27398f) [0x0000000000778F0F]
+    12: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x0000000000401250]
+    13: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x00000000779D0FD9]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x00000000779D0FA4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Aug  5 2015
+build type: Release
+build revision: 0 (devel)
+crash date: Apr 12 2017 13:28:30
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004a8bd4
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004A8BD4]
+    1: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004C3D97]
+    2: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004B6437]
+    3: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004DE239]
+    4: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA48]
+    5: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    6: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    7: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    8: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    9: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000044EB64]
+    10: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000046C4D0]
+    11: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe(alGetListeneriv+0x27398f) [0x0000000000778F0F]
+    12: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x0000000000401250]
+    13: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x00000000779D0FD9]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x00000000779D0FA4]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Aug  5 2015
+build type: Release
+build revision: 0 (devel)
+crash date: Apr 12 2017 15:53:36
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004a8bd4
+  backtrace:
+    0: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004A8BD4]
+    1: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004C3D97]
+    2: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004B6437]
+    3: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004DE239]
+    4: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA48]
+    5: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    6: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    7: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045B229]
+    8: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000045AA90]
+    9: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000044EB64]
+    10: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x000000000046C4D0]
+    11: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe(alGetListeneriv+0x27398f) [0x0000000000778F0F]
+    12: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x0000000000401250]
+    13: C:\Users\Meu computador\Desktop\Poke Wang Cyan\PokeWang V1\Jogar DirectX 9.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x439) [0x00000000779D0FD9]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlSubscribeWnfStateChangeNotification+0x404) [0x00000000779D0FA4]
+

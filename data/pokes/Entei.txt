@@ -1,0 +1,13 @@
+Name: Moltres
+Type: Fogo
+Required level: 100
+
+Evolutions:
+none
+
+
+Moves: 
+-/-
+
+Ability:
+Fly???????

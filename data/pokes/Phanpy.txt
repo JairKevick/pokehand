@@ -1,0 +1,19 @@
+Name: Phanpy
+Type: earth
+Required level: 10
+
+Evolutions:
+Phanpy, requires level 10
+Donphan, requires level 35
+
+
+Moves: 
+Sand Attack - m1 - level 10 - earth
+Slash - m2 - level 10 - normal
+Mud Shot - m3 - level 10 - earth
+Mud Slap - m4 - level 12 - earth
+Earthshock - m5 - level 15 - earth
+
+Ability:
+Dig
+Rock smash

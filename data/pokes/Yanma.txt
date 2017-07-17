@@ -1,0 +1,21 @@
+Name: Yanma
+Type: bug
+Required level: 80
+
+Evolutions:
+none
+
+Moves: 
+Quick Attack - m1 - level 80 - normal
+Slash - m2 - level 80 - normal
+Wing Attack - m3 - level 80 - flying
+Fury Cutter - m4 - level 85 - bug
+Shredder Team - m5 - level 95 - normal
+X-Scissor - m6 - level 90 - bug
+Agility - m7 - level 80 - flying
+Team Slice - m8 - level 98 - bug
+Counter Helix - passive  - bug
+Evasion - passive  - normal
+
+Ability:
+Cut

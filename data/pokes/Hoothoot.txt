@@ -1,0 +1,18 @@
+Name: Hoothoot
+Type: flying
+Required level: 10
+
+Evolutions:
+Hoothoot, requires level 10
+Noctowl, requires level 50
+
+
+Moves: 
+Quick Attack - m1 - level 10 - normal
+Sand Attack - m2 - level 10 - earth
+Gust - m3 - level 12 - flying
+Drill Peck - m4 - level 10 - flying
+Rage - m5 - level 15 - dragon
+
+Ability:
+None

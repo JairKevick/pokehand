@@ -1,0 +1,23 @@
+Name: Steelix
+Type: stone
+Required level: 50
+
+Evolutions:
+Onix, requires level 50
+Steelix, requires level 80
+
+
+Moves: 
+Sand Attack - m1 - level 50 - earth
+Iron Tail - m2 - level 50 - normal
+Rock Throw - m3 - level 50 - stone
+Rock Slide - m4 - level 50 - stone
+Earthshock - m5 - level 50 - earth
+Falling Rocks - m6 - level 58 - stone
+Earthquake - m7 - level 62 - earth
+Harden - m8 - level 50 - normal
+
+Ability:
+Dig
+Rock smash
+Ride

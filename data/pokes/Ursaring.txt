@@ -1,0 +1,16 @@
+Name: Ursaring
+Type: normal
+Required level: 1
+
+Evolutions:
+Teddiursa, requires level 1
+Ursaring, requires level 25
+
+Moves: 
+Quick Attack - m1 - level 1 - normal
+Bite - m2 - level 1 - normal
+Scratch - m3 - level 1 - normal
+Super Fang - m4 - level 12 - normal
+
+Ability:
+None

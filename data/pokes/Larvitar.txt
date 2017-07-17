@@ -1,0 +1,21 @@
+Name: Larvitar
+Type: stone
+Required level: 15
+
+Evolutions:
+Larvitar, requires level 15
+Pupitar, requires level 40
+Tyranitar, requires level 70
+
+
+
+Moves: 
+Rock Throw - m1 - level 15 - stone
+Rock Slide - m2 - level 15 - stone
+Mega Punch - m3 - level 18 - fighting
+Earthshock - m4 - level 25 - earth
+Harden - m5 - level 20 - normal
+
+Ability:
+Dig
+Rock smash

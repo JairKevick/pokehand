@@ -1,0 +1,18 @@
+Name: Snubbul
+Type: normal
+Required level: 25
+
+Evolutions:
+Snubbul, requires level 1
+Granbbul, requires level 25
+
+
+Moves: 
+Quick Attack - m1 - level 25 - normal
+Bite - m2 - level 25 - normal
+Scratch - m3 - level 25 - normal
+Super Fang - m4 - level 25 - normal
+Fury - passive  - dragon
+
+Ability:
+Dig

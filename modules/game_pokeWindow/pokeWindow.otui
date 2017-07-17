@@ -1,0 +1,295 @@
+BodySlot < Item
+  image-source: /images/ui/pxg/normalSlot
+  &position: {x=65535, y=4, z=0}
+
+LegSlot < Item
+  image-source: /images/ui/pxg/normalSlot
+  &position: {x=65535, y=7, z=0}
+  size: 54 54
+
+FeetSlot < Item
+  image-source: /images/ui/pxg/pokeSlot
+  &position: {x=65535, y=8, z=0}
+
+CombatBox < UICheckBox
+  size: 20 20
+  image-clip: 0 0 20 20
+
+  $checked:
+    image-clip: 0 20 20 20
+
+FightOffensiveBox < CombatBox
+  image-source: /images/ui/pxg/fightoffensive
+FightBalancedBox < CombatBox
+  image-source: /images/ui/pxg/fightbalanced
+FightDefensiveBox < CombatBox
+  image-source: /images/ui/pxg/fightdefensive
+
+StatsLabel < Label
+  font: verdana-11px-monochrome
+  anchors.right: parent.right
+  color: black
+
+  $first:
+    anchors.top: parent.top
+    margin-top: 125
+
+  $!first:
+    margin-top: 3
+    anchors.top: prev.bottom
+
+MainWindow
+  id: pokeWindow
+  image-source: /modules/game_pokeWindow/img/pokestatus
+  size: 148 337
+  opacity: 2
+  visible: true
+  focusable: false
+  !text: tr('')
+
+  Label
+    id: attack
+    !text: tr('')
+    text-auto-resize: true
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: 202
+    margin-right: 25
+    color: #7d7c6a
+
+  Label
+    id: defense
+    !text: tr('')
+    text-auto-resize: true
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: 221
+    margin-right: 25
+    color: #7d7c6a
+
+  Label
+    id: eattack
+    !text: tr('')
+    text-auto-resize: true
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: 240
+    margin-right: 25
+    color: #7d7c6a
+
+  Label
+    id: edefense
+    !text: tr('')
+    text-auto-resize: true
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: 183
+    margin-right: 25
+    color: #7d7c6a
+
+  Label
+    id: speed
+    !text: tr('')
+    text-auto-resize: true
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: 259
+    margin-right: 25
+    color: #7d7c6a
+
+  Label
+    id: pokename
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-top: 5
+    margin-left: 25
+    !text: tr('None')  
+    color: red
+    text-auto-resize: true
+
+  Label
+    id: pokelevel
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-top: 24
+    margin-left: 70
+    !text: tr('')  
+    color: #676660
+    text-auto-resize: true
+
+  Label
+    id: level
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-top: 24
+    margin-left: 43
+    !text: tr('')  
+    color: #676660
+    text-auto-resize: true
+
+  Label
+    id: lpoints
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: 276
+    margin-right: 5
+    !text: tr('')  
+    color: #c53b4c
+    text-auto-resize: true
+
+  Label
+    id: boost
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-top: 24
+    margin-left: 60
+    !text: tr('+')  
+    color: #676660
+
+  UIButton
+    id: checkButton
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: 56
+    margin-right: 0
+    size: 14 14
+    image-source: /modules/game_pokeWindow/img/checklove
+    image-clip: 0 0 14 14
+    @onClick: g_game.talk('!check')
+
+    $hover:
+      image-clip: 0 14 14 14
+
+    $pressed:
+      image-clip: 0 14 14 14
+
+  UIButton
+    id: loveButton
+    anchors.top: parent.top
+    anchors.right: checkButton.right
+    margin-top: 73
+    size: 14 14
+    image-source: /modules/game_pokeWindow/img/checklove
+    image-clip: 14 0 14 14
+    @onClick: g_game.talk('!love')
+
+    $hover:
+      image-clip: 14 14 14 14
+
+    $pressed:
+      image-clip: 14 14 14 14  
+
+  LegSlot
+    id: slot7
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 55
+    margin-left: 32
+
+  ProgressBar
+    id: healthBar
+    width: 110
+    height: 12
+    !text: ''
+    font: verdana-11px-rounded
+    color: #FFFFFF
+    background-color: #96ef3c
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: 125
+    margin-right: 2
+    opacity: 0.9
+
+  UIButton
+    id: healthBarImage
+    width: 115
+    height: 12
+    image-source: /images/ui/pxg/progressBar_red
+    image-color: black
+    focusable: false
+    margin-top: 125
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-right: 0
+
+  ProgressBar
+    id: expBar
+    width: 110
+    height: 12
+    !text: ''
+    font: verdana-11px-rounded
+    color: #FFFFFF
+    background-color: #7cebfb
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: 140
+    margin-right: 2
+    opacity: 0.9
+
+  UIButton
+    id: expbarImage
+    width: 115
+    height: 12
+    image-source: /images/ui/pxg/progressBar_blue
+    image-color: black
+    focusable: false
+    margin-top: 140
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-right: 0
+
+  UIButton
+    id: addvit
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: 183
+    margin-right: 0
+    image-source: /modules/game_pokeWindow/img/more2
+    @onClick: g_game.talk('!addstatus vit')
+
+  UIButton
+    id: addoff
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: 202
+    margin-right: 0
+    image-source: /modules/game_pokeWindow/img/more2
+    @onClick: g_game.talk('!addstatus off')
+
+  UIButton
+    id: adddef
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: 221
+    margin-right: 0
+    image-source: /modules/game_pokeWindow/img/more2
+    @onClick: g_game.talk('!addstatus def')
+
+  UIButton
+    id: addspa
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: 240
+    margin-right: 0
+    image-source: /modules/game_pokeWindow/img/more2
+    @onClick: g_game.talk('!addstatus spa')
+
+  UIButton
+    id: addagi
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: 259
+    margin-right: 0
+    image-source: /modules/game_pokeWindow/img/more2
+    @onClick: g_game.talk('!addstatus agi')
+
+  Label
+    id: points
+    !text: tr('Points:')
+    text-auto-resize: true
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: 276
+    margin-right: 20
+    color: #9d9c86
+  @onEscape: terminate()

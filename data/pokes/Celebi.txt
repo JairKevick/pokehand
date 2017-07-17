@@ -1,0 +1,13 @@
+Name: Celebi
+Type: Pshychic
+Required level: 75
+
+Evolutions:
+None
+
+
+Moves: 
+Slash - m1 - level 75 - normal
+
+Ability:
+Fly

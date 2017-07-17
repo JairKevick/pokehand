@@ -1,0 +1,24 @@
+Name: Skiploom
+Type: grass
+Required level: 25
+
+Evolutions:
+Hoppip, requires level 5
+Skiploom, requires level 25
+Jumpluff, requires level 50
+
+
+Moves: 
+Absorb - m1 - level 25 - grass
+Leech Seed - m2 - level 25 - grass
+Acid - m3 - level 25 - poison
+Poison Bomb - m4 - level 28 - poison
+Poison Gas - m5 - level 32 - poison
+Sleep Powder - m6 - level 25 - grass
+Stun Spore - m7 - level 25 - grass
+Poison Powder - m8 - level 25 - poison
+Spores Reaction - passive  - poison
+Mega Drain - passive  - normal
+
+Ability:
+Cut

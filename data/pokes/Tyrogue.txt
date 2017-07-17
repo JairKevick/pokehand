@@ -1,0 +1,23 @@
+Name: Tyrogue
+Type: fighting
+Required level: 60
+
+Evolutions:
+Tyrogue, requires level 20
+Hitmonchan, requires level 60
+Hitmonlee, requires level 60
+Hitmontop, requires level 60
+
+
+
+Moves: 
+Triple Punch - m1 - level 60 - fighting
+Mega Punch - m2 - level 60 - fighting
+Multi-Punch - m3 - level 65 - fighting
+Ultimate Champion - m4 - level 60 - fighting
+Elemental Hands - m5 - level 60 - fighting
+Demon Puncher - passive  - undefined
+Evasion - passive  - normal
+
+Ability:
+Rock smash

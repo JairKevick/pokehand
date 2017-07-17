@@ -1,0 +1,14 @@
+Name: Mewtwo
+Type: Pshych
+Required level: 75
+
+Evolutions:
+None
+
+Description: The best pokemon of the World.
+
+Moves: 
+Slash - m1 - level 75 - normal
+
+Ability:
+Fly

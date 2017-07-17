@@ -1,0 +1,9 @@
+Module
+  name: things
+  description: transparencia
+  reloadable: true
+  sandboxed: true
+  autoload: true
+  scripts: [things]
+  @onLoad: init()
+  @onUnload: terminate()

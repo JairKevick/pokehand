@@ -1,0 +1,18 @@
+Name: Togetic
+Type: normal
+Required level: 20
+
+Evolutions:
+Togepi, requires level 20
+Togetic, requires level 45
+
+Moves: 
+Doubleslap - m1 - level 20 - normal
+Lovely Kiss - m2 - level 20 - normal
+Sing - m3 - level 30 - normal
+Selfheal - m4 - level 28 - normal
+Multi-Slap - m5 - level 22 - normal
+Metronome - m6 - level 30 - normal
+
+Ability:
+None
